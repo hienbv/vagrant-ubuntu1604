@@ -1,0 +1,12 @@
+setup_path: /scripts
+apache2:
+  user: ubuntu
+  group: ubuntu
+mysql:
+  root_password: 123456
+site1:
+  app_name: local
+  server_name: local.dev
+  port: 80
+  root_path: /vagrant/
+  
